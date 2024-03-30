@@ -95,6 +95,17 @@
                   <option value="7">S_rand_large</option>
                   <option value="8">dodecahedron_3</option>                                                      
                 </select>       
+
+                <label for="task">Task:</label>
+
+                <select name="task" id="task">
+                  <option value="T1">T1</option>
+                  <option value="T2">T2</option>
+                  <option value="T3">T3</option>
+                  <option value="T4">T4</option>
+                  <option value="T5">T5</option>
+                  <option value="T6">T6</option>
+                </select>                       
                 
                 
               </div>    
@@ -216,8 +227,16 @@
     function loadGeoAndGraph(){
         let geo = document.getElementById("geometry").value;
         let graph = Number(document.getElementById("graph").value);
+        let task = document.getElementById("task").value
 
-        setUpVis(JSON.parse(JSON.stringify(GDATA[graph])), QDATA[getRandomInt(QDATA.length)][getRandomInt(3)], geo);
+        let question;
+        QDATA.some(qarr => {
+          question = qarr; 
+          return qarr[0].graph.graph_id === graph && qarr[0].q_type === task;
+        });
+        let q = question[getRandomInt(3)];
+
+        setUpVis(JSON.parse(JSON.stringify(GDATA[graph])), q, geo);
     }
     ready(() => { 
 
