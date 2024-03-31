@@ -61,7 +61,7 @@ QDATA = [
     [
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 2,
                 "option-2": 3,
@@ -81,7 +81,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 2,
                 "option-2": 3,
@@ -101,7 +101,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -424,7 +424,7 @@ QDATA = [
     [
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -444,7 +444,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -464,7 +464,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 2,
                 "option-2": 3,
@@ -788,7 +788,7 @@ QDATA = [
     [
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 2,
                 "option-2": 3,
@@ -808,7 +808,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -828,7 +828,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 3,
                 "option-2": 4,
@@ -1157,7 +1157,7 @@ QDATA = [
     [
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 2,
                 "option-2": 3,
@@ -1177,7 +1177,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 2,
                 "option-2": 3,
@@ -1197,7 +1197,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -1526,7 +1526,7 @@ QDATA = [
     [
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 2,
                 "option-2": 3,
@@ -1546,7 +1546,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 6,
                 "option-2": 7,
@@ -1566,7 +1566,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 2,
                 "option-2": 3,
@@ -1895,7 +1895,7 @@ QDATA = [
     [
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -1915,7 +1915,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -1935,7 +1935,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -2264,7 +2264,7 @@ QDATA = [
     [
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 4,
                 "option-2": 5,
@@ -2284,7 +2284,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -2304,7 +2304,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 6,
                 "option-2": 7,
@@ -2627,7 +2627,7 @@ QDATA = [
     [
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 5,
                 "option-2": 6,
@@ -2647,7 +2647,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 3,
                 "option-2": 4,
@@ -2667,7 +2667,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -2992,7 +2992,7 @@ QDATA = [
     [
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -3012,7 +3012,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
@@ -3032,7 +3032,7 @@ QDATA = [
         },
         {
             "q_type": "T2",
-            "q_text": "How many neighbors do the two nodes have in common?",
+            "q_text": "How many neighbors do the two highlighted nodes have in common?",
             "q_options": {
                 "option-1": 1,
                 "option-2": 2,
