@@ -173,17 +173,18 @@ class EuclideanVis {
 
         });
     }
-
+    
     addResetButton(){
+        document.getElementById("reset-button").remove();
         var resetButton = document.createElement("button")
         resetButton.classList.add("reset-button")
+        resetButton.setAttribute("id", "reset-button");
         document.getElementById("navbarToggler").appendChild(resetButton)
         resetButton.appendChild(document.createTextNode('Reset Visualization'));
         resetButton.onclick = () => {
             this.resetToDefault();
         }            
-    }
-
+    }    
     setToCenterNode(){
         const transform = this.layer1.node().attributes.transform.value.toString();
         let floats = getFloatsFromString(transform);

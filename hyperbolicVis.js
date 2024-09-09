@@ -413,8 +413,10 @@ class HyperbolicVis {
     }
 
     addResetButton(){
+        document.getElementById("reset-button").remove();
         var resetButton = document.createElement("button")
         resetButton.classList.add("reset-button")
+        resetButton.setAttribute("id", "reset-button");
         document.getElementById("navbarToggler").appendChild(resetButton)
         resetButton.appendChild(document.createTextNode('Reset Visualization'));
         resetButton.onclick = () => {
