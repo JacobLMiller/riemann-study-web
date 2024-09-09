@@ -173,9 +173,12 @@ class EuclideanVis {
 
         });
     }
-    
+
+
     addResetButton(){
-        document.getElementById("reset-button").remove();
+        let button = document.getElementById("reset-button");
+        if(button)
+            button.remove();
         var resetButton = document.createElement("button")
         resetButton.classList.add("reset-button")
         resetButton.setAttribute("id", "reset-button");
@@ -185,6 +188,7 @@ class EuclideanVis {
             this.resetToDefault();
         }            
     }    
+
     setToCenterNode(){
         const transform = this.layer1.node().attributes.transform.value.toString();
         let floats = getFloatsFromString(transform);
@@ -220,9 +224,9 @@ class EuclideanVis {
 
     resetToDefault(){
         this.svg.call(this.zoom.transform, d3.zoomIdentity);
-        // if(this.center_node){
-        //     this.setToCenterNode();
-        // }
+        if(this.center_node){
+            this.setToCenterNode();
+        }
 
         this.appendInteraction("reset");
     }

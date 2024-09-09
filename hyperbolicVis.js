@@ -412,8 +412,11 @@ class HyperbolicVis {
 
     }
 
+
     addResetButton(){
-        document.getElementById("reset-button").remove();
+        let button = document.getElementById("reset-button");
+        if(button)
+            button.remove();
         var resetButton = document.createElement("button")
         resetButton.classList.add("reset-button")
         resetButton.setAttribute("id", "reset-button");
@@ -423,6 +426,7 @@ class HyperbolicVis {
             this.resetToDefault();
         }            
     }    
+
 
     setToCenterNode(){
         let center = this.nodes[this.center_node].complex;
@@ -449,9 +453,9 @@ class HyperbolicVis {
         this.process();
         this.draw();
 
-        // if(this.center_node){
-        //     this.setToCenterNode();
-        // }        
+        if(this.center_node){
+            this.setToCenterNode();
+        }        
 
         this.appendInteraction("reset");
     }

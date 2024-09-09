@@ -292,7 +292,9 @@ class SphericalVis {
     }
 
     addResetButton(){
-        document.getElementById("reset-button").remove();
+        let button = document.getElementById("reset-button");
+        if(button)
+            button.remove();
         var resetButton = document.createElement("button")
         resetButton.classList.add("reset-button")
         resetButton.setAttribute("id", "reset-button");
@@ -331,9 +333,9 @@ class SphericalVis {
         this.draw();
         this.appendInteraction("reset");
 
-        // if(this.center_node !== null){
-        //     this.setToCenterNode();
-        // }                
+        if(this.center_node !== null){
+            this.setToCenterNode();
+        }                
     }
 
     highlight_question(id_list) {
