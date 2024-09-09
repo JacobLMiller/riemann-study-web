@@ -219,9 +219,9 @@ class EuclideanVis {
 
     resetToDefault(){
         this.svg.call(this.zoom.transform, d3.zoomIdentity);
-        if(this.center_node){
-            this.setToCenterNode();
-        }
+        // if(this.center_node){
+        //     this.setToCenterNode();
+        // }
 
         this.appendInteraction("reset");
     }

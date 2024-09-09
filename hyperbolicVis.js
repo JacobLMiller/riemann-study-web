@@ -447,9 +447,9 @@ class HyperbolicVis {
         this.process();
         this.draw();
 
-        if(this.center_node){
-            this.setToCenterNode();
-        }        
+        // if(this.center_node){
+        //     this.setToCenterNode();
+        // }        
 
         this.appendInteraction("reset");
     }

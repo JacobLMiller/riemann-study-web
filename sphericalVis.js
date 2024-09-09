@@ -329,9 +329,9 @@ class SphericalVis {
         this.draw();
         this.appendInteraction("reset");
 
-        if(this.center_node !== null){
-            this.setToCenterNode();
-        }                
+        // if(this.center_node !== null){
+        //     this.setToCenterNode();
+        // }                
     }
 
     highlight_question(id_list) {
